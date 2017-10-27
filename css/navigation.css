@@ -1,0 +1,44 @@
+.site__nav {
+	list-style-type: none;	
+	position: fixed;
+	right: 50px;
+	top: 33.3%;	
+}
+
+.site__nav-item {
+	padding-bottom: 15px;
+}
+
+.site__nav-item_active .page {
+	border-color: white;
+}
+
+.site__nav-item:last-child {
+	padding-bottom: 0px;
+}
+
+.page:hover {
+	border-color: white;
+	height: 16px;
+	width: 16px;
+	transition: 0.3s;
+}
+
+.page {
+	border: 1px solid transparent;
+	border-radius: 50%;
+	height: 16px;
+	width: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.page:after {
+	content: "";
+	display: block;
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	border-radius: 50%;
+}

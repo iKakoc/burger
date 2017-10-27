@@ -1,0 +1,49 @@
+.second {
+	background: url('../img/secondscreenbackground2.png') 0 0 no-repeat / cover;
+
+}
+
+.containertwo {
+	width: 940px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;	
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+}
+
+.second__title	{
+	font-family: gagalin;
+	font-size: 72px;
+	color: #2f3234;
+	padding-top: 65px;
+}
+
+.second__content {
+	display: flex;
+	padding-top: 150px;
+	align-items: stretch;
+	justify-content: space-between;	
+}
+
+.second__content-item {
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	width: 31%;	
+}
+
+.second__content-item_name {
+	font-family: lifehack;
+	font-size: 24px;
+	color: #2f3234;
+	padding-top: 25px;
+}
+
+.second__content-item_info {
+	font-family: ubuntulight;
+	font-size: 14px;
+	color: #2f3234;
+	padding-top: 15px;
+}
