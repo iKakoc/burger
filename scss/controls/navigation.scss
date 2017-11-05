@@ -1,0 +1,45 @@
+.site__nav {
+	list-style-type: none;	
+	position: fixed;
+	right: rem(50px);
+	top: 33.3%;
+	z-index: 100;	
+}
+
+.site__nav-item {
+	padding-bottom: rem(15px);
+}
+
+.site__nav-item_active .page {
+	border-color: white;
+}
+
+.site__nav-item:last-child {
+	padding-bottom: rem(0px);
+}
+
+.page:hover {
+	border-color: white;
+	height: rem(16px);
+	width: rem(16px);
+	transition: 0.3s;
+}
+
+.page {
+	border: rem(1px) solid transparent;
+	border-radius: 50%;
+	height: rem(16px);
+	width: rem(16px);
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.page:after {
+	content: "";
+	display: block;
+	width: rem(6px);
+	height: rem(6px);
+	background-color: white;
+	border-radius: 50%;
+}

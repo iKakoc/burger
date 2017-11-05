@@ -1,0 +1,48 @@
+.second {
+	background: url('../img/background.jpg') no-repeat center bottom / cover;
+
+}
+
+.containertwo {
+	width: rem(940px);
+	height: 100%;
+	margin: 0 auto;
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+}
+
+.second__title	{
+	font-family: gagalin;
+	font-size: rem(72px);
+	color: #2f3234;
+	padding-top: rem(150px);
+}
+
+.second__content {
+	display: flex;
+	padding-top: rem(100px);
+	align-items: baseline;
+	justify-content: space-between;	
+}
+
+.second__content-item {
+	display: flex;
+	flex-direction: column;	
+	text-align: center;
+	width: 31%;	
+}
+
+.second__content-item_name {
+	font-family: lifehack;
+	font-size: rem(24px);
+	color: #2f3234;
+	padding-top: rem(25px);
+}
+
+.second__content-item_info {
+	font-family: ubuntulight;
+	font-size: rem(14px);
+	color: #2f3234;
+	padding-top: rem(15px);
+}

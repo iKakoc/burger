@@ -1,0 +1,121 @@
+.three	{
+	background-color: black;		
+	color: #fff;			
+}
+
+.conteinerthree {
+	height: 100%;
+}
+
+.feedback {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.feedbackelement {
+	width: 25%;
+	height: 50%;			
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: relative;
+	overflow: hidden;
+	
+
+	&:hover .feedback__content {
+    opacity: 1;             
+	}
+	&:hover .feedback__content-wrap {
+		transform: scale(1);
+	}		
+}
+.feedback__content-wrap {
+	transform: scale(0.7);
+	transition: 0.3s; 
+}
+
+
+.feedback__content {
+	position: absolute;
+	opacity: 0;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    padding-left: 12%;
+    padding-top: 17%;
+    transition: .3s;
+             
+}
+
+.feedback__img {	
+	width: 100%;
+	height: 100%;
+	background-size: cover;	
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: grayscale(100%);
+}
+
+.fbi1 {
+	background-image: url('../img/p1.jpg');
+}
+
+.fbi2 {
+	background-image: url('../img/p2.jpg');
+}
+
+.fbi3{
+	background-image: url('../img/p3.jpg');
+}
+
+.fbi4 {
+	background-image: url('../img/p4.jpg');
+}
+
+.fbi5 {
+	background-image: url('../img/p5.jpg');
+}
+
+.fbi6 {
+	background-image: url('../img/p6.jpg');
+}
+
+.fbi7 {
+	background-image: url('../img/p7.jpg');
+}
+
+.fbi8 {
+	background-image: url('../img/p8.jpg');
+}
+
+.feedbackelement__name {
+	font-family: gagalin;
+	font-size: rem(14px);	
+}
+
+.feedbackelement__text {
+	font-family: ubuntulight;
+	font-size: rem(14px);	
+	line-height: 1.5;
+	padding-top: rem(30px);
+	padding-bottom: rem(30px);
+	margin-right: rem(80px);		
+}
+
+.feedbackelement__button {
+	font-family: ubuntumedium;
+	font-size: rem(13px);	
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2f3234;
+	border-radius: rem(4px);	
+	padding: rem(13px) rem(16px);
+	width: rem(100px);
+	text-align: center;	
+}
+
+.feedbackelement__button:hover {
+	background-color: #000;	
+}
